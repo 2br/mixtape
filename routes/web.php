@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::middleware(['auth'])->group(function () {
+    Route::get('/artist', [App\Http\Controllers\ArtistController::class, 'index'])->name('artist');
+    Route::get('/album', [App\Http\Controllers\HomeController::class, 'index'])->name('album');
+});
