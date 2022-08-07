@@ -22,6 +22,9 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::middleware(['auth'])->group(function () {
-    Route::get('/artist', [App\Http\Controllers\ArtistController::class, 'index'])->name('artist');
-    Route::get('/album', [App\Http\Controllers\HomeController::class, 'index'])->name('album');
+    Route::get('/artists', [App\Http\Controllers\ArtistsController::class, 'index'])->name('artists');
+
+    /** Album routes **/
+    Route::resource('album', App\Http\Controllers\AlbumController::class);
+    
 });
