@@ -1,6 +1,5 @@
-<p align="center"><a href="http://mixtape.ga" target="_blank"><img src="https://raw.githubusercontent.com/2br/mixtape/main/public/images/logo.png" width="400"></a></p>
-
-<h1>Mixtape</h1>
+<p align="center"><a href="http://mixtape.ga" target="_blank"><img src="https://raw.githubusercontent.com/2br/mixtape/main/public/images/logo.png" width="400">
+<h1>Mixtape</h1></a></p>
 
 ## About Mixtape
 
