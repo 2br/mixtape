@@ -1,14 +1,9 @@
-<p align="center">
-    <a href="http://mixtape.ga" target="_blank">
-        <img src="https://raw.githubusercontent.com/2br/mixtape/main/public/images/logo.png" width="150">
-            <h1>Mixtape</h1>
-    </a>
+<p  align="center"><a  href="http://mixtape.ga"  target="_blank">
+<img  src="https://raw.githubusercontent.com/2br/mixtape/main/public/images/logo.png"  width="150">
+</a>
 </p>
-<p align="center">
-    <a href="http://mixtape.ga" target="_blank">
-            <h1>Mixtape</h1>
-    </a>
-</p>
+<a href="http://mixtape.ga" target="_blank"><h1 align="center">
+ Mixtape</h1></a>
 
 ## About Mixtape
 
