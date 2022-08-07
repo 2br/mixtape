@@ -13,7 +13,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        //Ignores sanctum migrations... Just in case
+        \Laravel\Sanctum\Sanctum::ignoreMigrations();
     }
 
     /**
