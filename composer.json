@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
+    "name": "laravel/mixtape",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Mixtape - Music Collection APP.",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "require": {

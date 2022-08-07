@@ -1,0 +1,14 @@
+#Disable index view
+Options -Indexes
+
+RewriteEngine On
+RewriteBase /mixtape/
+
+RewriteCond %{THE_REQUEST} /public/([^\s?]*) [NC]
+RewriteRule ^ %1 [L,NE,R=302]
+RewriteRule ^((?!public/).*)$ public/$1 [L,NC]
+
+<Files .env>
+Order allow,Deny
+Deny from all
+</Files>
