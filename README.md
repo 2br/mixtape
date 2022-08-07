@@ -4,6 +4,11 @@
             <h1>Mixtape</h1>
     </a>
 </p>
+<p align="center">
+    <a href="http://mixtape.ga" target="_blank">
+            <h1>Mixtape</h1>
+    </a>
+</p>
 
 ## About Mixtape
 
