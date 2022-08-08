@@ -26,7 +26,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <img src="{{ asset('images/logo.png')}}" width="15%" height="15%" class="img-responsive"  />
+                    <img src="{{ asset('images/logo.png')}}" width="10%" height="10%" class="img-responsive"  />
                     {{ config('app.name', 'Laravel') }}
                 </a>
                 
