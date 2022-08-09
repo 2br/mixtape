@@ -28,7 +28,7 @@
                                 <i class="fa fa-twitter"></i>
                               </a>
                           </h5>
-                          <p>{{$artist['twitterInfo']['description']}}.</p>
+                          <p>{{$artist['twitterInfo']['description']}}</p>
                         </div>
                       </div>
                       @endforeach
