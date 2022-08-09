@@ -12,7 +12,7 @@
             <div class="card">
                 <div class="card-header d-flex justify-content-between">
                     <div class="p-2">{{ __('All albums') }}</div>
-                    <a href="/album/create" class="btn btn-primary">
+                    <a href="{{route('album.create')}}" class="btn btn-primary">
                         <i class="fa fa-plus"></i>  Add Album
                     </a>
                 </div>
