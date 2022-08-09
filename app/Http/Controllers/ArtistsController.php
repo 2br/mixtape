@@ -109,7 +109,8 @@ class ArtistsController extends Controller
         $twitterInfo['profile_image_url'] = $imgUrl;
         $twitterInfo['description'] = $content->data->description;
 
-        Cache::add( $twitterUser, $twitterInfo,  Carbon::now()->addMinutes(120 + rand(10, 120))  ); // Random to prevent all requests at once
+        $cacheTime = env('TWITTER_CACHE_TIME',120);
+        Cache::add( $twitterUser, $twitterInfo,  Carbon::now()->addMinutes($cacheTime + rand(5, $cacheTime))  ); // Random to prevent all requests at once
         return $twitterInfo;
     }
 
